@@ -1,0 +1,12 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Compilados
+out/
+*.class
+
+# NetBeans
+nbproject/
+build/
+dist/
