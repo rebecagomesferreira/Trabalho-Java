@@ -1,4 +1,4 @@
-package service;
+package ucb.aplicativo.cli;
 
 public class Placeholder {
 }

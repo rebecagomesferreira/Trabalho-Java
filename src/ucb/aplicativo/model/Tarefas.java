@@ -1,8 +1,8 @@
-package model;
+package ucb.aplicativo.model;
 
 import java.time.LocalDateTime;
 
-public class Tarefa {
+public class Tarefas {
     private Long id;
     private String titulo;
     private String descricao;
@@ -10,19 +10,19 @@ public class Tarefa {
     private LocalDateTime dataAgora;
 
     // Construtor padrão
-    public Tarefa() {
+    public Tarefas() {
         this.dataAgora = LocalDateTime.now();
         this.completa = false;
     }
 
     // Construtor com título
-    public Tarefa(String titulo) {
+    public Tarefas(String titulo) {
         this();
         this.titulo = titulo;
     }
 
     // Construtor completo
-    public Tarefa(Long id, String titulo, String descricao) {
+    public Tarefas(Long id, String titulo, String descricao) {
         this();
         this.id = id;
         this.titulo = titulo;
@@ -72,7 +72,7 @@ public class Tarefa {
 
     @Override
     public String toString() {
-        return "Tarefa {" +
+        return "Tarefas {" +
                 "id=" + id +
                 ", titulo='" + titulo + '\'' +
                 ", descricao='" + descricao + '\'' +
