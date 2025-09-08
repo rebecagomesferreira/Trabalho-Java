@@ -1,5 +1,5 @@
 package ucb.aplicativo.service;
 
-public class TarefaServicos {
+public class TarefaService {
     
 }
