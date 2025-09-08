@@ -1,4 +1,4 @@
-package ucb.aplicativo.control;
+package ucb.aplicativo.service;
 
 public class TarefaServicos {
     
