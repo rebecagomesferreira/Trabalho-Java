@@ -17,4 +17,10 @@ public class TarefaService {
     tarefas.add(tarefa);
     return tarefa;
 }
+
+  //listar tarefas
+  public List<Tarefas> listarTarefas() {
+  
+    return tarefas;
+}
 }
