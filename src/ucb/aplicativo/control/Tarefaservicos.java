@@ -6,12 +6,12 @@ import java.util.List;
 public class TarefaService {
 
   private List<Tarefas> tarefas = new ArrayList <> ();
-  private Long contadorId = 1;
+  private Long contadorId = 1L;
   
 
   public Tarefas criarTarefa(String titulo, String descricao) {
     Tarefas tarefa = new Tarefas (contadorId++, titulo, descricao, false);
-    Tarefas.add(tarefa);
+    tarefas.add(tarefa);
     return tarefa;
 }
 }
