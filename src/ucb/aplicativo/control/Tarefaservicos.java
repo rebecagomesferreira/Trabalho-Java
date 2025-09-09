@@ -11,7 +11,7 @@ public class TarefaService {
 
   public Tarefas criarTarefa(String titulo, String descricao) {
     Tarefas tarefa = new Tarefas (contadorId++, titulo, descricao, false);
-    Tarefas.add(tarefas);
+    Tarefas.add(tarefa);
     return tarefa;
 }
 }
