@@ -22,12 +22,13 @@ public class Tarefas {
     }
 
     // Construtor completo
-    public Tarefas(Long id, String titulo, String descricao) {
-        this();
-        this.id = id;
-        this.titulo = titulo;
-        this.descricao = descricao;
-    }
+    public Tarefas(Long id, String titulo, String descricao, boolean completa){
+    this();
+    this.id = id;
+    this.titulo = titulo;
+    this.descricao = descricao;
+    this.completa = completa;
+}
 
     // Getters e Setters
     public Long getId() {
