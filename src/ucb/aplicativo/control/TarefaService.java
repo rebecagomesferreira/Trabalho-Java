@@ -1,4 +1,4 @@
-package ucb.aplicativo.service;
+package ucb.aplicativo.control;
 
 import ucb.aplicativo.model.Tarefas;
 import java.util.ArrayList;
@@ -35,7 +35,7 @@ public class TarefaService {
           tarefa.setDescricao(novaDescricao);
         }
         if (concluido != null) {
-          tarefa.setConcluido(concluido);
+    tarefa.setCompleta(concluido);
         }
         return tarefa;
       }
