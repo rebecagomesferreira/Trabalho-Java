@@ -3,6 +3,7 @@ package ucb.aplicativo.model;
 import java.time.LocalDateTime;
 
 public class Tarefas {
+
     private Long id;
     private String titulo;
     private String descricao;
@@ -22,13 +23,13 @@ public class Tarefas {
     }
 
     // Construtor completo
-    public Tarefas(Long id, String titulo, String descricao, boolean completa){
-    this();
-    this.id = id;
-    this.titulo = titulo;
-    this.descricao = descricao;
-    this.completa = completa;
-}
+    public Tarefas(Long id, String titulo, String descricao, boolean completa) {
+        this();
+        this.id = id;
+        this.titulo = titulo;
+        this.descricao = descricao;
+        this.completa = completa;
+    }
 
     // Getters e Setters
     public Long getId() {
@@ -73,12 +74,12 @@ public class Tarefas {
 
     @Override
     public String toString() {
-        return "Tarefas {" +
-                "id=" + id +
-                ", titulo='" + titulo + '\'' +
-                ", descricao='" + descricao + '\'' +
-                ", completa=" + completa +
-                ", dataAgora=" + dataAgora +
-                '}';
+        return "Tarefas {"
+                + "id=" + id
+                + ", titulo='" + titulo + '\''
+                + ", descricao='" + descricao + '\''
+                + ", completa=" + completa
+                + ", dataAgora=" + dataAgora
+                + '}';
     }
 }
